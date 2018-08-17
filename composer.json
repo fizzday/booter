@@ -1,0 +1,21 @@
+{
+    "name": "fizzday/booter",
+    "description": "a mini booter of some services",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fizz",
+            "email": "fizzday@yeah.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/database": "5.4.36"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fizzday\\Booter\\": "src/"
+        }
+    }
+}
+
