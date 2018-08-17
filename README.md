@@ -1,6 +1,6 @@
 Booter
 =======
-a mini booter of some services
+a mini booter of some services .
 
 Installation
 ------------
