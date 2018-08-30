@@ -41,10 +41,10 @@ Example
     ```php
     <?php
     
-    use Illuminate\Database\Eloquent\Model as Eloquent;
+    use Illuminate\Database\Eloquent\Model as Model;
     use Illuminate\Database\Capsule\Manager as DB;
     
-    class UserModel extends Eloquent {
+    class UserModel extends Model {
         protected $table = "prefix_users";
     }
     
