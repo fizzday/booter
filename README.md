@@ -25,11 +25,11 @@ Example
                   'connections' => array(
                       'mysql' => array(
                           'driver' => 'mysql',
-                          'host' => '192.168.200.248',
+                          'host' => 'localhost',
                           'port' => '3306',
-                          'database' => 'wcc_service_yxpt',
-                          'username' => 'gcore',
-                          'password' => 'gcore',
+                          'database' => 'mydb',
+                          'username' => 'root',
+                          'password' => 'root',
                           'charset' => 'utf8',
                           'collation' => 'utf8_unicode_ci',
                           'prefix' => '',
