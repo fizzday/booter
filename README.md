@@ -37,20 +37,25 @@ Example
                   );
     Booter::bootEloquent($config);
     ```
-    - usage   
+- 2. usage   
+    - query builder
     ```php
     <?php
-    
-    use Illuminate\Database\Eloquent\Model as Model;
     use Illuminate\Database\Capsule\Manager as DB;
-    
-    class UserModel extends Model {
-        protected $table = "prefix_users";
-    }
-    
-    // eloquent 调用
-    UserModel::first();
-    
     // query builder 调用
     DB::table("users")->First();
     ```
+
+    - model调用
+    ```php
+    <?php
+    use Illuminate\Database\Eloquent\Model as Model;
+    class UserModel extends Model {
+        protected $table = "prefix_users";
+    }
+    // eloquent 调用
+    UserModel::first();
+    ```
+
+
+    
