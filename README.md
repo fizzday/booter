@@ -37,7 +37,8 @@ Example
                   );
     Booter::bootEloquent($config);
     ```
-- 2. usage   
+
+- 2.usage   
     - query builder
     ```php
     <?php
@@ -58,4 +59,3 @@ Example
     ```
 
 
-    
