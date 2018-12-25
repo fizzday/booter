@@ -1,6 +1,6 @@
 Booter
 =======
-a mini booter of some services .
+a mini booter of some services, now you can use laravel's orm of eloquent in either php project with this booter
 
 Installation
 ------------
