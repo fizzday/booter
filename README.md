@@ -58,4 +58,19 @@ Example
     UserModel::first();
     ```
 
-
+Version selection
+-------
+```
+v5.3.23
+v5.4.36
+v5.5.44
+v5.6.39
+v5.7.28
+v5.8.24
+```
+these versions alias `illuminate/database` versions.  
+```
+composer require v5.4.*  
+// or
+composer require v5.4.36
+```
